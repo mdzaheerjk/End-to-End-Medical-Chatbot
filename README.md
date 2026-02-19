@@ -1,4 +1,6 @@
 # End-to-End-Medical-Chatbot
+
+Medical Chatbot using Retrieval-Augmented Generation (RAG) to answer medical queries. PDFs are converted into embeddings and stored in Pinecone. LangChain retrieves context for LLM responses. Built with Flask and deployable on AWS using Docker and GitHub Actions for scalable access.
 <p align="center">
   <img src="https://backend.krishnaik.in/media/project_banners/medical_chatbot_2.jpg"
        alt="Medical Chatbot Banner"
